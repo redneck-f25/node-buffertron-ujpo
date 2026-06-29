@@ -1,6 +1,6 @@
 {
   "name": "buffertron-ujpo",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "UDP JSON ingestion, buffering, and HTTP fan-out delivery service.",
   "license": "ISC",
   "author": "Daniel Hammerschmidt <daniel.hammerschmidt@bitctrl.de>",
