@@ -1,0 +1,24 @@
+{
+  "gateway": {
+    "bind": {
+      "port": 3495,
+      "address": "localhost"
+    },
+    "senders": [
+      {
+        "url": "http://127.0.1.1:3458/",
+        "interval": 5000,
+        "connectTimeout": 1000,
+        "idleTimeout": 2000,
+        "encoding": "brotli"
+      }
+    ]
+  },
+  "receiver": {
+    "listen": {
+      "host": "127.0.1.1",
+      "port": 3458
+    },
+    "maxBodySize": 2097152
+  }
+}

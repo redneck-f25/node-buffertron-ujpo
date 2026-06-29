@@ -1,0 +1,22 @@
+{
+  "name": "buffertron-ujpo",
+  "version": "0.1.0",
+  "description": "UDP JSON ingestion, buffering, and HTTP fan-out delivery service.",
+  "license": "ISC",
+  "author": "Daniel Hammerschmidt <daniel.hammerschmidt@bitctrl.de>",
+  "type": "module",
+  "main": "main.js",
+  "files": [
+    "main.js",
+    "lib/gateway.js",
+    "lib/receiver.js",
+    "lib/defaultGateway.js",
+    "lib/defaultReceiver.js",
+    "lib/logger.js",
+    "lib/is-main.js",
+    "doc/config-example.json"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
