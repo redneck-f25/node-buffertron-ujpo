@@ -71,6 +71,15 @@ node main.js <mode> <config.json>
 node main.js gateway config.json
 ```
 
+### Use as Node Module
+
+```sh
+npm init
+npm install https://github.com/redneck-f25/node-buffertron-ujpo
+```
+
+see [node-buffertron-ujpo-example](https://github.com/redneck-f25/node-buffertron-ujpo-example)
+
 ### Configuration (example)
 
 ```json
